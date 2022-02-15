@@ -5,7 +5,7 @@ import com.badlogic.gdx.graphics.glutils.ShapeRenderer.ShapeType;
 import com.badlogic.gdx.math.MathUtils;
 import dk.sdu.mmmi.cbse.main.Game;
 
-public class Player extends SpaceObject {
+public class Enemy extends SpaceObject {
 
     private boolean left;
     private boolean right;
@@ -15,12 +15,12 @@ public class Player extends SpaceObject {
     private float acceleration;
     private float deceleration;
 
-    public Player() {
+    public Enemy() {
 
-        x = Game.WIDTH / 2;
-        y = Game.HEIGHT / 2;
+        x = MathUtils.random(100, 1400);
+        y = MathUtils.random(100, 1300);
 
-        maxSpeed = 600;
+        maxSpeed = 300;
         acceleration = 200;
         deceleration = 10;
 
@@ -28,7 +28,7 @@ public class Player extends SpaceObject {
         shapey = new float[4];
 
         radians = 3.1415f / 2;
-        rotationSpeed = 3;
+        rotationSpeed = 20;
 
     }
 
@@ -58,20 +58,21 @@ public class Player extends SpaceObject {
         up = b;
     }
 
-    public void update(float dt) {
 
-        // turning
-        if (left) {
-            radians += rotationSpeed * dt;
-        } else if (right) {
-            radians -= rotationSpeed * dt;
-        }
+    public void update(float dt) {
+               // turning
+//        if (left) {
+//            radians += rotationSpeed * dt;
+//        } else if (right) {
+//            radians -= rotationSpeed * dt;
+//        }
+
+        radians += (( (float) Math.random() * rotationSpeed) + rotationSpeed) * dt;
+        radians -= (( (float) Math.random() * rotationSpeed) + rotationSpeed) * dt;
 
         // accelerating
-        if (up) {
             dx += MathUtils.cos(radians) * acceleration * dt;
             dy += MathUtils.sin(radians) * acceleration * dt;
-        }
 
         // deceleration
         float vec = (float) Math.sqrt(dx * dx + dy * dy);
@@ -98,7 +99,7 @@ public class Player extends SpaceObject {
 
     public void draw(ShapeRenderer sr) {
 
-        sr.setColor(1, 1, 1, 1);
+        sr.setColor(0, 1, 0, 1);
 
         sr.begin(ShapeType.Line);
 
