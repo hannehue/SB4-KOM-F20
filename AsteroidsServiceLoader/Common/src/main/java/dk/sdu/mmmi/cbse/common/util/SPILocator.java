@@ -15,6 +15,7 @@ public class SPILocator {
     private SPILocator() {
     }
 
+
     @SuppressWarnings("unchecked")
     public static <T> List<T> locateAll(Class<T> service) {
         ServiceLoader<T> loader = loadermap.get(service);
