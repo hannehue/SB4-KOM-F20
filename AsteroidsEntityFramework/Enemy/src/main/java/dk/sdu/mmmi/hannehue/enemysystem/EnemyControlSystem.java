@@ -1,13 +1,12 @@
-package dk.sdu.mmmi.cbse.enemysystem;
+package dk.sdu.mmmi.hannehue.enemysystem;
 
+import com.badlogic.gdx.math.MathUtils;
 import dk.sdu.mmmi.cbse.common.data.Entity;
 import dk.sdu.mmmi.cbse.common.data.GameData;
 import dk.sdu.mmmi.cbse.common.data.World;
 import dk.sdu.mmmi.cbse.common.data.entityparts.MovingPart;
 import dk.sdu.mmmi.cbse.common.data.entityparts.PositionPart;
 import dk.sdu.mmmi.cbse.common.services.IEntityProcessingService;
-
-import static dk.sdu.mmmi.cbse.common.data.GameKeys.*;
 
 public class EnemyControlSystem implements IEntityProcessingService {
 
@@ -35,6 +34,15 @@ public class EnemyControlSystem implements IEntityProcessingService {
         float x = positionPart.getX();
         float y = positionPart.getY();
         float radians = positionPart.getRadians();
+        MovingPart movingPart = entity.getPart(MovingPart.class);
+        movingPart.setUp(true);
+        if (MathUtils.random(0, 1) == 0){
+            movingPart.setLeft(true);
+            movingPart.setRight(false);
+        } else {
+            movingPart.setRight(true);
+            movingPart.setLeft(false);
+        }
 
         shapex[0] = (float) (x + Math.cos(radians) * 8);
         shapey[0] = (float) (y + Math.sin(radians) * 8);
