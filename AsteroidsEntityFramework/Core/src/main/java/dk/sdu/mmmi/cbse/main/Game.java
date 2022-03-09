@@ -10,6 +10,7 @@ import dk.sdu.mmmi.cbse.common.data.GameData;
 import dk.sdu.mmmi.cbse.common.data.World;
 import dk.sdu.mmmi.cbse.common.services.IEntityProcessingService;
 import dk.sdu.mmmi.cbse.common.services.IGamePluginService;
+import dk.sdu.mmmi.cbse.common.services.IPostEntityProcessingService;
 import dk.sdu.mmmi.cbse.common.util.SPILocator;
 import dk.sdu.mmmi.hannehue.enemysystem.Enemy;
 import dk.sdu.mmmi.hannehue.enemysystem.EnemyControlSystem;
@@ -33,6 +34,7 @@ public class Game
     private final GameData gameData = new GameData();
     private List<IEntityProcessingService> entityProcessors = new ArrayList<>();
     private List<IGamePluginService> entityPlugins = new ArrayList<>();
+    private List<IPostEntityProcessingService> postEntityProcessingServices = new ArrayList<>();
     private World world = new World();
 
     @Override
@@ -93,6 +95,10 @@ public class Game
         for (IEntityProcessingService entityProcessorService : getEntityProcessors()) {
             entityProcessorService.process(gameData, world);
         }
+
+        for (IPostEntityProcessingService postEntityProcessingService : getPostEntityProcessingService()) {
+            postEntityProcessingService.process(gameData, world);
+        }
     }
 
     private void draw() {
@@ -144,5 +150,9 @@ public class Game
 
     private List<IGamePluginService> getEntityPlugins() {
         return SPILocator.locateAll(IGamePluginService.class);
+    }
+
+    private List<IPostEntityProcessingService> getPostEntityProcessingService() {
+        return SPILocator.locateAll(IPostEntityProcessingService.class);
     }
 }

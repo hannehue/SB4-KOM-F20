@@ -3,11 +3,13 @@ package dk.sdu.mmmi.hannehue.asteroidsystem;
 import dk.sdu.mmmi.cbse.common.data.Entity;
 import dk.sdu.mmmi.cbse.common.data.GameData;
 import dk.sdu.mmmi.cbse.common.data.World;
+import dk.sdu.mmmi.cbse.common.data.entityparts.LifePart;
 import dk.sdu.mmmi.cbse.common.data.entityparts.MovingPart;
 import dk.sdu.mmmi.cbse.common.data.entityparts.PositionPart;
 import dk.sdu.mmmi.cbse.common.services.IGamePluginService;
+import dk.sdu.mmmi.cbse.common.services.IPostEntityProcessingService;
 
-public class AsteroidPlugin implements IGamePluginService {
+public class AsteroidPlugin implements IGamePluginService, IPostEntityProcessingService {
 
     private Entity asteroid;
 
@@ -27,13 +29,14 @@ public class AsteroidPlugin implements IGamePluginService {
         float speed = (float) Math.random() * 10f + 40f;
         float radians = 3.1415f / 2 + (float) Math.random();
 
-        float x = gameData.getDisplayWidth() / 2;
-        float y = gameData.getDisplayHeight() / 2;
+        float x = (float) Math.random() * gameData.getDisplayWidth();
+        float y = (float) Math.random() * gameData.getDisplayHeight();
 
         Entity asteroidEntity = new Asteroid();
 
         asteroidEntity.add(new MovingPart(0, speed, speed, 0));
         asteroidEntity.add(new PositionPart(x, y, radians));
+        asteroidEntity.add(new LifePart(6, 69));
         asteroidEntity.setRadius(15);
 
         return (Asteroid) asteroidEntity;
@@ -45,4 +48,8 @@ public class AsteroidPlugin implements IGamePluginService {
         world.removeEntity(asteroid);
     }
 
+    @Override
+    public void process(GameData gameData, World world) {
+
+    }
 }
