@@ -8,6 +8,7 @@ import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 import dk.sdu.mmmi.cbse.common.data.Entity;
 import dk.sdu.mmmi.cbse.common.data.GameData;
 import dk.sdu.mmmi.cbse.common.data.World;
+import dk.sdu.mmmi.cbse.common.data.entityparts.PositionPart;
 import dk.sdu.mmmi.cbse.common.services.IEntityProcessingService;
 import dk.sdu.mmmi.cbse.common.services.IGamePluginService;
 import dk.sdu.mmmi.cbse.common.services.IPostEntityProcessingService;
@@ -125,6 +126,10 @@ public class Game
             }
 
             sr.end();
+            PositionPart posPart = entity.getPart(PositionPart.class);
+//            sr.begin(ShapeRenderer.ShapeType.Line);
+//            sr.circle(posPart.getX(), posPart.getY(), entity.getRadius());
+//            sr.end();
         }
     }
 

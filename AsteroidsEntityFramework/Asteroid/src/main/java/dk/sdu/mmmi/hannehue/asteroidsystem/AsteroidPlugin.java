@@ -21,7 +21,9 @@ public class AsteroidPlugin implements IGamePluginService, IPostEntityProcessing
 
         // Add entities to the world
         asteroid = createAsteroid(gameData);
+        asteroid.setName("Asteroid");
         world.addEntity(asteroid);
+        System.out.println("Created player with ID: " + asteroid.getID());
     }
 
     private Entity createAsteroid(GameData gameData) {
@@ -37,7 +39,7 @@ public class AsteroidPlugin implements IGamePluginService, IPostEntityProcessing
         asteroidEntity.add(new MovingPart(0, speed, speed, 0));
         asteroidEntity.add(new PositionPart(x, y, radians));
         asteroidEntity.add(new LifePart(6, 69));
-        asteroidEntity.setRadius(15);
+        asteroidEntity.setRadius(20);
 
         return (Asteroid) asteroidEntity;
     }

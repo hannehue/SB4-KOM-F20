@@ -24,8 +24,8 @@ public class CollisionDetector implements IPostEntityProcessingService {
                     }
                 }
 
-                if (Collides(entity, collidingEntities)){
-                    System.out.println("Collision between " + entity.getID() + " And " + collidingEntities.getID());
+                if (this.collides(entity, collidingEntities)){
+                    System.out.println("Collision between " + entity.getName() + " And " + collidingEntities.getName());
 //                    if (entityLife.getLife() > 0) {
 //                        entityLife.setLife(entityLife.getLife() - 1);
 //                        entityLife.setIsHit(true);
@@ -38,13 +38,13 @@ public class CollisionDetector implements IPostEntityProcessingService {
         }
     }
 
-    public Boolean Collides(Entity entity1, Entity entity2){
+    private Boolean collides(Entity entity1, Entity entity2){
         PositionPart entity1PositionPart = entity1.getPart(PositionPart.class);
         PositionPart entity2PositionPart = entity2.getPart(PositionPart.class);
         float dx = entity1PositionPart.getX() - entity2PositionPart.getX();
         float dy = entity1PositionPart.getY() - entity2PositionPart.getX();
         float distance = (float) Math.sqrt(dx * dx - dy * dy);
-
+        System.out.println("Distance between " + entity1.getName() + " and " + entity2.getName() + " is: " + distance);
         return distance < entity1.getRadius() + entity2.getRadius();
     }
 }

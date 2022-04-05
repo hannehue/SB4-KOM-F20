@@ -8,6 +8,7 @@ import java.util.concurrent.ConcurrentHashMap;
 
 public class Entity implements Serializable {
     private final UUID ID = UUID.randomUUID();
+    private String name;
 
     private float[] shapeX = new float[4];
     private float[] shapeY = new float[4];
@@ -56,5 +57,13 @@ public class Entity implements Serializable {
 
     public void setShapeY(float[] shapeY) {
         this.shapeY = shapeY;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
     }
 }
