@@ -44,7 +44,7 @@ public class BulletControlSystem implements IEntityProcessingService {
         float speed = 350;
 
         Entity bullet = new Bullet();
-        bullet.setRadius(2);
+        bullet.setRadius(1);
 
         float bx = (float) cos(radians) * shooter.getRadius() * bullet.getRadius();
         float by = (float) sin(radians) * shooter.getRadius() * bullet.getRadius();

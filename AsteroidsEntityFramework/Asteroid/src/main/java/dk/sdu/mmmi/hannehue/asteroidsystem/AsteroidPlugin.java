@@ -20,9 +20,10 @@ public class AsteroidPlugin implements IGamePluginService, IPostEntityProcessing
     public void start(GameData gameData, World world) {
 
         // Add entities to the world
+        for (int i = 0; i < 5; i++){
         asteroid = createAsteroid(gameData);
-        asteroid.setName("Asteroid");
         world.addEntity(asteroid);
+        }
     }
 
     private Entity createAsteroid(GameData gameData) {
@@ -38,7 +39,7 @@ public class AsteroidPlugin implements IGamePluginService, IPostEntityProcessing
         asteroidEntity.add(new MovingPart(0, speed, speed, 0));
         asteroidEntity.add(new PositionPart(x, y, radians));
         asteroidEntity.add(new LifePart(6, 69));
-        asteroidEntity.setRadius(20);
+        asteroidEntity.setRadius(15);
 
         return (Asteroid) asteroidEntity;
     }
