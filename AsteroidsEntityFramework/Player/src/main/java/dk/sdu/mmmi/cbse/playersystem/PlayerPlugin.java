@@ -23,7 +23,6 @@ public class PlayerPlugin implements IGamePluginService{
         player = createPlayerShip(gameData);
         player.setName("Player");
         world.addEntity(player);
-        System.out.println("Created player with ID: " + player.getID());
     }
 
     private Entity createPlayerShip(GameData gameData) {

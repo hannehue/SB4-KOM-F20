@@ -24,7 +24,6 @@ public class EnemyPlugin implements IGamePluginService{
         enemy = createEnemyShip(gameData);
         enemy.setName("Enemy");
         world.addEntity(enemy);
-        System.out.println("Created player with ID: " + enemy.getID());
     }
 
     private Entity createEnemyShip(GameData gameData) {

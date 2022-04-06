@@ -23,7 +23,6 @@ public class AsteroidPlugin implements IGamePluginService, IPostEntityProcessing
         asteroid = createAsteroid(gameData);
         asteroid.setName("Asteroid");
         world.addEntity(asteroid);
-        System.out.println("Created player with ID: " + asteroid.getID());
     }
 
     private Entity createAsteroid(GameData gameData) {

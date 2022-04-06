@@ -1,5 +1,6 @@
 package dk.hannehue.collisionsystem;
 
+import dk.sdu.mmmi.cbse.bulletsystem.Bullet;
 import dk.sdu.mmmi.cbse.common.data.Entity;
 import dk.sdu.mmmi.cbse.common.data.GameData;
 import dk.sdu.mmmi.cbse.common.data.World;
@@ -16,6 +17,7 @@ public class CollisionDetector implements IPostEntityProcessingService {
                 LifePart collisionLife = collidingEntities.getPart(LifePart.class);
 
                 if (entity.getID().equals(collidingEntities.getID())) continue;
+                if (entity instanceof Bullet && collidingEntities instanceof Bullet) continue;
 
                 if (entityLife.getExpiration() <= 0) {
                     world.removeEntity(entity);
@@ -25,14 +27,14 @@ public class CollisionDetector implements IPostEntityProcessingService {
                 }
 
                 if (this.collides(entity, collidingEntities)){
-                    System.out.println("Collision between " + entity.getName() + " And " + collidingEntities.getName());
-//                    if (entityLife.getLife() > 0) {
-//                        entityLife.setLife(entityLife.getLife() - 1);
-//                        entityLife.setIsHit(true);
-//                        if (entityLife.getLife() <= 0){
-//                            world.removeEntity(entity);
-//                        }
-//                    }
+                    //System.out.println("Collision between " + entity.getName() + " And " + collidingEntities.getName());
+                    if (entityLife.getLife() > 0) {
+                        entityLife.setLife(entityLife.getLife() - 1);
+                        entityLife.setIsHit(true);
+                        if (entityLife.getLife() <= 0){
+                            world.removeEntity(entity);
+                        }
+                    }
                 }
             }
         }
@@ -44,7 +46,7 @@ public class CollisionDetector implements IPostEntityProcessingService {
         float dx = entity1PositionPart.getX() - entity2PositionPart.getX();
         float dy = entity1PositionPart.getY() - entity2PositionPart.getX();
         float distance = (float) Math.sqrt(dx * dx - dy * dy);
-        System.out.println("Distance between " + entity1.getName() + " and " + entity2.getName() + " is: " + distance);
-        return distance < entity1.getRadius() + entity2.getRadius();
+        //System.out.println("Distance between " + entity1.getName() + " and " + entity2.getName() + " is: " + distance);
+        return distance < (entity1.getRadius() + entity2.getRadius());
     }
 }
