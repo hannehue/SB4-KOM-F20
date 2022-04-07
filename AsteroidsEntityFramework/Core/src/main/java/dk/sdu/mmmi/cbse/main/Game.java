@@ -26,12 +26,10 @@ import dk.sdu.mmmi.hannehue.asteroidsystem.AsteroidPlugin;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Game
-        implements ApplicationListener {
+public class Game implements ApplicationListener {
 
     private static OrthographicCamera cam;
     private ShapeRenderer sr;
-
     private final GameData gameData = new GameData();
     private List<IEntityProcessingService> entityProcessors = new ArrayList<>();
     private List<IGamePluginService> entityPlugins = new ArrayList<>();
