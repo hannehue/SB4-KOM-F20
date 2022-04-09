@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="dk.sdu.hannehue.Collision">
-    <module_version install_time="1649507248876" last="true" origin="installer" specification_version="1.0">
+    <module_version install_time="1649519526388" last="true" origin="installer" specification_version="1.0">
         <file crc="4006655631" name="config/Modules/dk-sdu-hannehue-Collision.xml"/>
-        <file crc="1982359420" name="modules/dk-sdu-hannehue-Collision.jar"/>
+        <file crc="1763316642" name="modules/dk-sdu-hannehue-Collision.jar"/>
     </module_version>
 </module>

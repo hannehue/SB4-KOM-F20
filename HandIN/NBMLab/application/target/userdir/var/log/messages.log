@@ -1,5 +1,5 @@
 -------------------------------------------------------------------------------
->Log Session: Saturday, April 9, 2022 2:27:35 PM CEST
+>Log Session: Saturday, April 9, 2022 5:52:14 PM CEST
 >System Info: 
   Product Version         = NBMLab 11.2-d04fb24027334c4b6fd8397b5d0cdd33187a8f54
   Operating System        = Windows 11 version 10.0 running on amd64
@@ -34,12 +34,12 @@ INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.netbeans.core.netigso [1.37 11.2-d04fb24027334c4b6fd8397b5d0cdd33187a8f54]
 	org.netbeans.modules.netbinox [1.47 11.2-d04fb24027334c4b6fd8397b5d0cdd33187a8f54]
 	org.netbeans.api.annotations.common/1 [1.33 11.2-d04fb24027334c4b6fd8397b5d0cdd33187a8f54]
-	dk.sdu.hannehue.Common [1.0 1.0-20220409 202204091227]
-	dk.sdu.hannehue.CommonBullet [1.0 1.0-20220409 202204091227]
-	dk.sdu.hannehue.Player [1.0 1.0-20220409 202204091227]
-	dk.sdu.hannehue.NBMLab.branding [1.0 1.0-20220409 202204091227]
-	dk.sdu.hannehue.Core [1.0 1.0-20220409 202204091227]
-	dk.sdu.hannehue.CommmonAsteroid [1.0 1.0-20220409 202204091227]
-	dk.sdu.hannehue.Collision [1.0 1.0-20220409 202204091227]
-	dk.sdu.hannehue.Bullet [1.0 1.0-20220409 202204091227]
-	dk.sdu.hannehue.Asteroid [1.0 1.0-20220409 202204091227]
+	dk.sdu.hannehue.Common [1.0 1.0-20220409 202204091552]
+	dk.sdu.hannehue.CommonBullet [1.0 1.0-20220409 202204091552]
+	dk.sdu.hannehue.Player [1.0 1.0-20220409 202204091552]
+	dk.sdu.hannehue.NBMLab.branding [1.0 1.0-20220409 202204091552]
+	dk.sdu.hannehue.Core [1.0 1.0-20220409 202204091552]
+	dk.sdu.hannehue.CommmonAsteroid [1.0 1.0-20220409 202204091552]
+	dk.sdu.hannehue.Collision [1.0 1.0-20220409 202204091552]
+	dk.sdu.hannehue.Bullet [1.0 1.0-20220409 202204091552]
+	dk.sdu.hannehue.Asteroid [1.0 1.0-20220409 202204091552]
