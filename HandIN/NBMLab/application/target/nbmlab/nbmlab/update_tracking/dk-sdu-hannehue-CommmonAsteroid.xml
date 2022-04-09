@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="dk.sdu.hannehue.CommmonAsteroid">
+    <module_version install_time="1649507249663" last="true" origin="installer" specification_version="1.0">
+        <file crc="298537448" name="config/Modules/dk-sdu-hannehue-CommmonAsteroid.xml"/>
+        <file crc="2152551228" name="modules/dk-sdu-hannehue-CommmonAsteroid.jar"/>
+    </module_version>
+</module>

@@ -10,9 +10,12 @@
         <module name="NBMLab-app" />
         <module name="Player" />
         <module name="NBMLab-branding" />
+        <module name="Asteroid" />
+        <module name="Collision" />
         <module name="CommonBullet" />
         <module name="Core" />
         <module name="Common" />
+        <module name="CommmonAsteroid" />
       </profile>
     </annotationProcessing>
   </component>

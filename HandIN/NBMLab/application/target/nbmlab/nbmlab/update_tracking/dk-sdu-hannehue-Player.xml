@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="dk.sdu.hannehue.Player">
-    <module_version install_time="1649505383013" last="true" origin="installer" specification_version="1.0">
+    <module_version install_time="1649507249645" last="true" origin="installer" specification_version="1.0">
         <file crc="36109453" name="config/Modules/dk-sdu-hannehue-Player.xml"/>
-        <file crc="1963694936" name="modules/dk-sdu-hannehue-Player.jar"/>
+        <file crc="3377835966" name="modules/dk-sdu-hannehue-Player.jar"/>
     </module_version>
 </module>

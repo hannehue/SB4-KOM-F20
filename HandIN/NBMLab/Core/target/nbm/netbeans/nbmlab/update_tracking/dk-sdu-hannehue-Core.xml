@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="dk.sdu.hannehue.Core">
-    <module_version install_time="1649505381262" last="true" origin="installer" specification_version="1.0">
+    <module_version install_time="1649507247218" last="true" origin="installer" specification_version="1.0">
         <file crc="324610494" name="config/Modules/dk-sdu-hannehue-Core.xml"/>
-        <file crc="1616363725" name="modules/dk-sdu-hannehue-Core.jar"/>
+        <file crc="3187067855" name="modules/dk-sdu-hannehue-Core.jar"/>
         <file crc="1603646078" name="modules/ext/dk.sdu.hannehue.Core/com-badlogicgames-gdx/gdx-backend-lwjgl.jar"/>
         <file crc="491759067" name="modules/ext/dk.sdu.hannehue.Core/com-badlogicgames-gdx/gdx-box2d-platform-natives-desktop.jar"/>
         <file crc="2059226421" name="modules/ext/dk.sdu.hannehue.Core/com-badlogicgames-gdx/gdx-box2d.jar"/>
