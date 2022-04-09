@@ -1,13 +1,13 @@
-C:\Users\Hannehue\Desktop\Java Projects\NBMLab\Common\src\main\java\dk\sdu\hannehue\services\IEntityProcessingService.java
-C:\Users\Hannehue\Desktop\Java Projects\NBMLab\Common\src\main\java\dk\sdu\hannehue\data\GameData.java
-C:\Users\Hannehue\Desktop\Java Projects\NBMLab\Common\src\main\java\dk\sdu\hannehue\data\entityparts\PositionPart.java
-C:\Users\Hannehue\Desktop\Java Projects\NBMLab\Common\src\main\java\dk\sdu\hannehue\data\entityparts\LifePart.java
-C:\Users\Hannehue\Desktop\Java Projects\NBMLab\Common\src\main\java\dk\sdu\hannehue\data\Entity.java
-C:\Users\Hannehue\Desktop\Java Projects\NBMLab\Common\src\main\java\dk\sdu\hannehue\data\entityparts\TimerPart.java
-C:\Users\Hannehue\Desktop\Java Projects\NBMLab\Common\src\main\java\dk\sdu\hannehue\data\entityparts\EntityPart.java
-C:\Users\Hannehue\Desktop\Java Projects\NBMLab\Common\src\main\java\dk\sdu\hannehue\data\entityparts\MovingPart.java
-C:\Users\Hannehue\Desktop\Java Projects\NBMLab\Common\src\main\java\dk\sdu\hannehue\services\IGamePluginService.java
-C:\Users\Hannehue\Desktop\Java Projects\NBMLab\Common\src\main\java\dk\sdu\hannehue\data\World.java
-C:\Users\Hannehue\Desktop\Java Projects\NBMLab\Common\src\main\java\dk\sdu\hannehue\data\GameKeys.java
-C:\Users\Hannehue\Desktop\Java Projects\NBMLab\Common\src\main\java\dk\sdu\hannehue\events\Event.java
-C:\Users\Hannehue\Desktop\Java Projects\NBMLab\Common\src\main\java\dk\sdu\hannehue\services\IPostEntityProcessingService.java
+C:\Users\Hannehue\Desktop\SB4-KOM-F20\HandIN\NBMLab\Common\src\main\java\dk\sdu\hannehue\data\Entity.java
+C:\Users\Hannehue\Desktop\SB4-KOM-F20\HandIN\NBMLab\Common\src\main\java\dk\sdu\hannehue\data\entityparts\MovingPart.java
+C:\Users\Hannehue\Desktop\SB4-KOM-F20\HandIN\NBMLab\Common\src\main\java\dk\sdu\hannehue\data\entityparts\TimerPart.java
+C:\Users\Hannehue\Desktop\SB4-KOM-F20\HandIN\NBMLab\Common\src\main\java\dk\sdu\hannehue\services\IEntityProcessingService.java
+C:\Users\Hannehue\Desktop\SB4-KOM-F20\HandIN\NBMLab\Common\src\main\java\dk\sdu\hannehue\events\Event.java
+C:\Users\Hannehue\Desktop\SB4-KOM-F20\HandIN\NBMLab\Common\src\main\java\dk\sdu\hannehue\services\IPostEntityProcessingService.java
+C:\Users\Hannehue\Desktop\SB4-KOM-F20\HandIN\NBMLab\Common\src\main\java\dk\sdu\hannehue\data\World.java
+C:\Users\Hannehue\Desktop\SB4-KOM-F20\HandIN\NBMLab\Common\src\main\java\dk\sdu\hannehue\data\GameKeys.java
+C:\Users\Hannehue\Desktop\SB4-KOM-F20\HandIN\NBMLab\Common\src\main\java\dk\sdu\hannehue\data\GameData.java
+C:\Users\Hannehue\Desktop\SB4-KOM-F20\HandIN\NBMLab\Common\src\main\java\dk\sdu\hannehue\data\entityparts\EntityPart.java
+C:\Users\Hannehue\Desktop\SB4-KOM-F20\HandIN\NBMLab\Common\src\main\java\dk\sdu\hannehue\data\entityparts\LifePart.java
+C:\Users\Hannehue\Desktop\SB4-KOM-F20\HandIN\NBMLab\Common\src\main\java\dk\sdu\hannehue\data\entityparts\PositionPart.java
+C:\Users\Hannehue\Desktop\SB4-KOM-F20\HandIN\NBMLab\Common\src\main\java\dk\sdu\hannehue\services\IGamePluginService.java

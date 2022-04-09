@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 OpenIDE-Module-Specification-Version: 1.0
-OpenIDE-Module-Implementation-Version: 1.0-20220406
-OpenIDE-Module-Build-Version: 202204061553
+OpenIDE-Module-Implementation-Version: 1.0-20220409
+OpenIDE-Module-Build-Version: 202204091156
 OpenIDE-Module: dk.sdu.hannehue.Common
 OpenIDE-Module-Public-Packages: dk.sdu.hannehue.data.*, dk.sdu.hannehu
  e.data.entityparts.*, dk.sdu.hannehue.events.*, dk.sdu.hannehue.servi

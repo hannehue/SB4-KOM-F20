@@ -65,6 +65,8 @@
         <module>Common</module>
         <module>Player</module>
         <module>CommonBullet</module>
+        <module>Bullet</module>
+        <module>Asteroid</module>
     </modules>
 
     <properties>

@@ -1,8 +1,8 @@
 Manifest-Version: 1.0
-OpenIDE-Module-Install: dk/sdu/hannehue/core/main/Installer.java
+OpenIDE-Module-Install: dk/sdu/hannehue/core/main/Installer.class
 OpenIDE-Module-Specification-Version: 1.0
-OpenIDE-Module-Implementation-Version: 1.0-20220406
-OpenIDE-Module-Build-Version: 202204061553
+OpenIDE-Module-Implementation-Version: 1.0-20220409
+OpenIDE-Module-Build-Version: 202204091156
 OpenIDE-Module: dk.sdu.hannehue.Core
 OpenIDE-Module-Public-Packages: -
 OpenIDE-Module-Requires: org.openide.modules.ModuleFormat1

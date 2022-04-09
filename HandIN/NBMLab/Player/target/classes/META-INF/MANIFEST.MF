@@ -1,8 +1,8 @@
 Manifest-Version: 1.0
 OpenIDE-Module-Localizing-Bundle: dk/sdu/hannehue/Bundle.properties
 OpenIDE-Module-Specification-Version: 1.0
-OpenIDE-Module-Implementation-Version: 1.0-20220406
-OpenIDE-Module-Build-Version: 202204061554
+OpenIDE-Module-Implementation-Version: 1.0-20220409
+OpenIDE-Module-Build-Version: 202204091156
 OpenIDE-Module: dk.sdu.hannehue.Player
 OpenIDE-Module-Public-Packages: -
 OpenIDE-Module-Requires: org.openide.modules.ModuleFormat1
