@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="dk.sdu.hannehue.Common">
+    <module_version install_time="1649589442193" last="true" origin="installer" specification_version="1.0">
+        <file crc="71332383" name="config/Modules/dk-sdu-hannehue-Common.xml"/>
+        <file crc="2452109445" name="modules/dk-sdu-hannehue-Common.jar"/>
+    </module_version>
+</module>

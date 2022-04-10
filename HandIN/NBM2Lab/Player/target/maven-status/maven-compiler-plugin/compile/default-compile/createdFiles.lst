@@ -1,0 +1,5 @@
+dk\sdu\hannehue\playersystem\PlayerPlugin.class
+META-INF\services\dk.sdu.hannehue.services.IGamePluginService
+dk\sdu\hannehue\playersystem\Player.class
+META-INF\services\dk.sdu.hannehue.services.IEntityProcessingService
+dk\sdu\hannehue\playersystem\PlayerControlSystem.class

@@ -1,0 +1,11 @@
+platform=1649589450951
+cluster.bin=1649589450950
+cluster.etc=1649589450951
+cluster.nbmlab=1649589450951
+cluster.platform=1649589450951
+user=1649589450951
+crc=7
+locale=en_US
+branding=nbmlab
+java.version=1.8.0_321
+java.vm.version=25.321-b07

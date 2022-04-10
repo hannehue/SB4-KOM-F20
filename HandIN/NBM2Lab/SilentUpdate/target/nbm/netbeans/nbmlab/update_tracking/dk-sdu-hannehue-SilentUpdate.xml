@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="dk.sdu.hannehue.SilentUpdate">
+    <module_version install_time="1649589441827" last="true" origin="installer" specification_version="1.0">
+        <file crc="4011822473" name="config/Modules/dk-sdu-hannehue-SilentUpdate.xml"/>
+        <file crc="3693511409" name="modules/dk-sdu-hannehue-SilentUpdate.jar"/>
+    </module_version>
+</module>

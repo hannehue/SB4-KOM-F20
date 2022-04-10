@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+OpenIDE-Module-Localizing-Bundle: dk/sdu/hannehue/Bundle.properties
+OpenIDE-Module-Install: dk/sdu/hannehue/silentUpdate/UpdateActivator.c
+ lass
+OpenIDE-Module-Layer: dk/sdu/hannehue/layer.xml
+OpenIDE-Module-Specification-Version: 1.0
+OpenIDE-Module-Implementation-Version: 1.0-20220410
+OpenIDE-Module-Build-Version: 202204101117
+OpenIDE-Module: dk.sdu.hannehue.SilentUpdate
+OpenIDE-Module-Public-Packages: -
+OpenIDE-Module-Requires: org.openide.modules.ModuleFormat1
+OpenIDE-Module-Display-Category: dk.sdu.hannehue
+OpenIDE-Module-Name: SilentUpdate
+OpenIDE-Module-Short-Description: <undefined>
+OpenIDE-Module-Long-Description: <undefined>
+OpenIDE-Module-Module-Dependencies: org.netbeans.api.annotations.commo
+ n/1 > 1.33, org.openide.modules > 7.54, org.netbeans.modules.autoupda
+ te.services > 1.59, org.openide.io > 1.55, org.openide.util > 9.13
+

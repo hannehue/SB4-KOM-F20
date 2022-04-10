@@ -1,0 +1,5 @@
+bulletsystem\BulletPlugin.class
+META-INF\services\dk.sdu.hannehue.common.bullet.BulletSPI
+bulletsystem\BulletControlSystem.class
+META-INF\services\dk.sdu.hannehue.services.IGamePluginService
+META-INF\services\dk.sdu.hannehue.services.IEntityProcessingService

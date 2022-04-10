@@ -1,0 +1,5 @@
+dk\sdu\hannehue\asteroid\AsteroidPlugin.class
+META-INF\services\dk.sdu.hannehue.services.IPostEntityProcessingService
+dk\sdu\hannehue\asteroid\AsteroidControlSystem.class
+META-INF\services\dk.sdu.hannehue.services.IGamePluginService
+META-INF\services\dk.sdu.hannehue.services.IEntityProcessingService

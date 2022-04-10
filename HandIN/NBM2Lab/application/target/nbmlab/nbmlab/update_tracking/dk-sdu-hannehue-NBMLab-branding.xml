@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="dk.sdu.hannehue.NBMLab.branding">
+    <module_version install_time="1649589444445" last="true" origin="installer" specification_version="1.0">
+        <file crc="761960059" name="config/Modules/dk-sdu-hannehue-NBMLab-branding.xml"/>
+        <file crc="3599292892" name="core/locale/core_nbmlab.jar"/>
+        <file crc="2903584501" name="modules/dk-sdu-hannehue-NBMLab-branding.jar"/>
+        <file crc="3683873010" name="modules/locale/org-netbeans-core-windows_nbmlab.jar"/>
+        <file crc="2291924439" name="modules/locale/org-netbeans-core_nbmlab.jar"/>
+    </module_version>
+</module>

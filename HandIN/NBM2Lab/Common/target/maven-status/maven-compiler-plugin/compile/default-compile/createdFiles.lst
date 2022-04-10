@@ -1,0 +1,13 @@
+dk\sdu\hannehue\events\Event.class
+dk\sdu\hannehue\data\entityparts\PositionPart.class
+dk\sdu\hannehue\services\IPostEntityProcessingService.class
+dk\sdu\hannehue\data\World.class
+dk\sdu\hannehue\data\GameKeys.class
+dk\sdu\hannehue\data\entityparts\TimerPart.class
+dk\sdu\hannehue\services\IGamePluginService.class
+dk\sdu\hannehue\data\entityparts\EntityPart.class
+dk\sdu\hannehue\services\IEntityProcessingService.class
+dk\sdu\hannehue\data\Entity.class
+dk\sdu\hannehue\data\entityparts\LifePart.class
+dk\sdu\hannehue\data\entityparts\MovingPart.class
+dk\sdu\hannehue\data\GameData.class

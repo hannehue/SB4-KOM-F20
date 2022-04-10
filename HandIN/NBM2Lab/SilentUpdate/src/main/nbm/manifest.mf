@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+OpenIDE-Module-Localizing-Bundle: dk/sdu/hannehue/Bundle.properties
+OpenIDE-Module-Install: dk/sdu/hannehue/silentUpdate/UpdateActivator.class
+OpenIDE-Module-Layer: dk/sdu/hannehue/layer.xml

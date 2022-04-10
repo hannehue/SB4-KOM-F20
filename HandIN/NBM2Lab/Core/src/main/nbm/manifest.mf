@@ -1,0 +1,2 @@
+Manifest-Version: 1.0
+OpenIDE-Module-Install: dk/sdu/hannehue/core/main/Installer.class
