@@ -1,0 +1,6 @@
+#-----------------------------------------------------------------
+# Use this file to add customized Bnd instructions for the bundle
+#-----------------------------------------------------------------
+Bundle-SymbolicName: Core
+Service-Component: META-INF/core.xml
+Bundle-Activator: ${bundle.namespace}.internal.ExampleActivator
